@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog – CodeBashStat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <div class="logo">CodeBashStat</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/decoded/">Decoded Docs</a>
+      <a href="/lab/">Lab</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Dispatch</h1>
+    <p>
+      Posts about learning, switching careers, and the messy middle.
+      No fake grindset. Just work, patterns, and receipts.
+    </p>
+  </section>
+
+  <section>
+    <h2>Planned posts</h2>
+    <ul>
+      <li>“What EMS taught me about debugging.”</li>
+      <li>“Why tutorials are not working for you.”</li>
+      <li>“Building a second career while raising a kid and fighting burnout.”</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div>© <span id="year"></span> CodeBashStat • Built by Bree</div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
